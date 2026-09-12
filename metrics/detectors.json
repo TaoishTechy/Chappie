@@ -1,0 +1,34 @@
+{
+  "windows": {
+    "short": 16,
+    "medium": 64,
+    "long": 256
+  },
+  "thresholds": {
+    "mode_collapse_share": 0.85,
+    "entropy_low": 0.6,
+    "entropy_high": 2.05,
+    "argmax_margin_lock": 0.25,
+    "horizon_stick_share": 0.90,
+    "fp_err_repair": 0.25,
+    "fp_stuck_min_cycles": 8,
+    "novelty_z": 3.0,
+    "regime_kl": 0.35,
+    "dt_gap_s": 5.0,
+    "cycle_reset_delta": -1,
+    "monodromy": 1e-4,
+    "emergence_min_signals": 3
+  },
+  "map_to_audit": {
+    "MODE_COLLAPSE": ["A6", "C29", "C31"],
+    "ENTROPY_DROP": ["C26", "C31", "D42"],
+    "HORIZON_STICK": ["F61", "F71", "F72"],
+    "FP_STUCK": ["B20", "G73", "G84"],
+    "REPAIR_NOOP": ["G75", "G83"],
+    "NOVEL_BOUNDARY": ["H85", "H93"],
+    "WEIGHT_MUTATION": ["A8", "I99", "K127"],
+    "IO_FAULT": ["H86", "L133"],
+    "PROMPT_CONSUMED": ["C27"],
+    "EMERGENCE_CANDIDATE": ["A12"]
+  }
+}

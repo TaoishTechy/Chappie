@@ -1,0 +1,75 @@
+{
+  "schema": "phi-lite-scientific-metrics/1.0",
+  "n_logs": 548,
+  "n_errors": 5,
+  "n_ledger": 552,
+  "action_counts": {
+    "LISTEN": 2,
+    "LOOK": 3,
+    "REPAIR": 5,
+    "PLAN": 533,
+    "PROMPT_REPLY": 2,
+    "PAUSE": 3
+  },
+  "dominant_action": "PLAN",
+  "dominant_share": 0.9726,
+  "action_entropy_full": 0.1678,
+  "cycle_min": 0,
+  "cycle_max": 805,
+  "state_cycle": 800,
+  "state_last_action": "PLAN",
+  "h_l2": 1.3415,
+  "s_l2": 0.4278,
+  "ledger_mean_novelty": 2.2918,
+  "weights": {
+    "size": 803394,
+    "mtime": 1789140351.124413
+  },
+  "event_counts": {
+    "REPAIR_NOOP": 5,
+    "IO_FAULT": 5,
+    "PROMPT_CONSUMED": 2,
+    "MODE_COLLAPSE": 1,
+    "CYCLE_RESET": 1,
+    "DT_GAP": 1,
+    "HORIZON_STICK": 1
+  },
+  "audit_pointers": {
+    "PROMPT_CONSUMED": [
+      "C27"
+    ],
+    "REPAIR_NOOP": [
+      "G75",
+      "G83"
+    ],
+    "HORIZON_STICK": [
+      "F61",
+      "F71",
+      "F72"
+    ],
+    "IO_FAULT": [
+      "H86",
+      "L133"
+    ],
+    "MODE_COLLAPSE": [
+      "A6",
+      "C29",
+      "C31"
+    ],
+    "DT_GAP": [],
+    "CYCLE_RESET": []
+  },
+  "enhancement_priority": [
+    "online weight update + dump WEIGHT_MUTATION with signed diff",
+    "persist c, attn, H_pi, argmax_margin each cycle in metrics.jsonl",
+    "stop full-vector jsonl or rotate to cap EIO",
+    "break PLAN lock: cost on repeated action + log ACTION_INNOVATION",
+    "horizon must change with novelty_z and be written to metrics",
+    "REPAIR must mutate E or W and emit before/after hash"
+  ],
+  "stage_estimate": {
+    "label": "scaffold_closed_loop",
+    "agi_emergence": 1.5,
+    "note": "Do not promote stage without WEIGHT_MUTATION plus falling prediction error."
+  }
+}

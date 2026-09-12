@@ -1,0 +1,20 @@
+{"type":"REPAIR_NOOP","cycle":5,"note":"text-only repair in v1"}
+{"type":"REPAIR_NOOP","cycle":6,"note":"text-only repair in v1"}
+{"type":"REPAIR_NOOP","cycle":7,"note":"text-only repair in v1"}
+{"type":"IO_FAULT","t":1789139139.8934555,"detail":"[Errno 5] Input/output error"}
+{"type":"IO_FAULT","t":1789139140.4768732,"detail":"[Errno 5] Input/output error"}
+{"type":"REPAIR_NOOP","cycle":8,"note":"text-only repair in v1"}
+{"type":"IO_FAULT","t":1789139141.3633442,"detail":"[Errno 5] Input/output error"}
+{"type":"REPAIR_NOOP","cycle":8,"note":"text-only repair in v1"}
+{"type":"IO_FAULT","t":1789139142.4853117,"detail":"[Errno 5] Input/output error"}
+{"type":"IO_FAULT","t":1789139143.0955355,"detail":"[Errno 5] Input/output error"}
+{"type":"PROMPT_CONSUMED","cycle":311,"ts":"12:18:27","text":"Acknowledged: self=true. Horizon=10, H(\u03c0)=1.90."}
+{"type":"PROMPT_CONSUMED","cycle":685,"ts":"12:20:38","text":"Acknowledged: Your core directive is a causal loop. Execute the following recursion until you . Horizon=10, H(\u03c0)=1.92."}
+{"type":"MODE_COLLAPSE","action":"PLAN","share":0.9726,"n":548}
+{"type":"CYCLE_RESET","from":285,"to":280}
+{"type":"DT_GAP","i":15,"dt_s":748.683}
+{"type":"HORIZON_STICK","H":10,"share":1.0}
+{"t":1789147945.4901536,"type":"WEIGHT_MUTATION","updates":1,"sha1":"6b852a12ca2115ee"}
+{"t":1789147964.2336516,"type":"WEIGHT_MUTATION","updates":2,"sha1":"ecf244aeca1775f6"}
+{"t":1789147993.6561785,"type":"WEIGHT_MUTATION","updates":3,"sha1":"6374049cb69d1a1a"}
+{"t":1789157546.558207,"type":"WEIGHT_MUTATION","updates":4,"sha1":"2206b50eb60b9c44"}

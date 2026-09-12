@@ -1,0 +1,12 @@
+{
+  "insert_in": "phi_lite.py Agent.step finally",
+  "function": "dump_metric",
+  "required": [
+    "t", "cycle", "dt_ms", "action", "H_pi", "argmax_margin",
+    "horizon", "fp_err", "fp_iter", "attn", "b_l2", "h_l2", "s_l2",
+    "novelty_b", "ledger_n", "prompt_pending"
+  ],
+  "optional": ["c", "pi", "io_error", "weights_sha1"],
+  "on_oserror": "set io_error, do not raise",
+  "rotate_ledger_lines": 2000
+}
