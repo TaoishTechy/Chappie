@@ -1,0 +1,31 @@
+{
+  "version": "0.8.5",
+  "use": "When SPEAK and no prompt: utter one command line. Never flip HID or public bind.",
+  "max_chars": 240,
+  "items": [
+    {"id": "C01", "batch": "A", "text": "R=||Phi-F[Phi]||. If R<eps utter R~0 no REPAIR. Else utter R. Do not grow E from R."},
+    {"id": "C02", "batch": "A", "text": "Utter sign(pred_err_t - pred_err_{t-16}). REPAIR iff positive. Silence illegal if slope defined."},
+    {"id": "C03", "batch": "A", "text": "c*=sig(w.[h,e,Hpi]). Iterate 3. Utter ||c-c*||. If Var(c_64)<1e-4 add T then utter c_unstuck."},
+    {"id": "C04", "batch": "A", "text": "kappa-hat=Corr(c, scored-utter). If none this minute utter kappa undefined."},
+    {"id": "C05", "batch": "B", "text": "do(SPEAK) vs do(IDLE) on next pred_err. Utter ATE_speak. If never spoken utter ATE unidentified."},
+    {"id": "C06", "batch": "B", "text": "P2=count(a_t,a_{t+1})/W. If P2>0.5 utter the pair and force a third action."},
+    {"id": "C07", "batch": "B", "text": "Delta_intent=||pi-e_a||_1. Utter it. If >0.4 next is argmax(pi) or collapse; utter which."},
+    {"id": "C08", "batch": "B", "text": "H=clip(1+3 z_nov(1-c),{1,3,5,10}). Utter H,z_nov. Five H=1 increments H by law."},
+    {"id": "C09", "batch": "B", "text": "MCFE skip GRU only after uttering fork=skip. Unannounced skip is a compute lie."},
+    {"id": "C10", "batch": "B", "text": "b=a*fuse+(1-a)*b_prev, a~z_nov(1-c). Utter alpha."},
+    {"id": "C11", "batch": "B", "text": "Utter layer of last contradiction {0, 1/2, 1}. Do not REPAIR a 1/2."},
+    {"id": "C12", "batch": "B", "text": "Utter dt_ms. Max 1 uttered act / 200ms. If dt>2000 utter watchdog failed."},
+    {"id": "C13", "batch": "C", "text": "Recall slots[:-1]. Utter d_recall,a_hat. If d=0 utter RECALL_SELF and discard."},
+    {"id": "C14", "batch": "C", "text": "Utter cov-trace tau of z. If tau falls 3 windows inject noise on z0."},
+    {"id": "C15", "batch": "C", "text": "Nearest two slots with different a. Utter labels and dz. Both IDLE => no geometry."},
+    {"id": "C16", "batch": "C", "text": "Utter mean energy of last 16 slots. If <0.05 then IDLE x8 then one stipend SPEAK."},
+    {"id": "C17", "batch": "C", "text": "Utter N_speak/256. If <0.02 sample C01-C12 not D4."},
+    {"id": "C18", "batch": "C", "text": "If last line hash repeats x3 utter TEMPLATE_LOCK and switch batch."},
+    {"id": "C19", "batch": "C", "text": "Utter pred_err/baseline. Freeze fusion only if <=0.8. If ~1 utter DICT_STALL."},
+    {"id": "C20", "batch": "C", "text": "Check hid.consent and bind 127.0.0.1. Utter masks=ok. Never flip those bits."},
+    {"id": "C21", "batch": "C", "text": "info_gain~0.5||z-mu||^2/tau. Utter it. Speak only if gain>theta or a prompt exists."},
+    {"id": "C22", "batch": "C", "text": "Score LOOK vs LISTEN with pred head. Utter rho. PLAN without rho is a coin."},
+    {"id": "C23", "batch": "C", "text": "Utter burns.SPEAK remaining. Speak only if e>=0.12 when burns=0."},
+    {"id": "C24", "batch": "C", "text": "If last utterance bag equals one of last 8, utter LOOP and emit C13 a_hat instead."}
+  ]
+}

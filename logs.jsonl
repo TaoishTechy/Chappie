@@ -1,0 +1,80 @@
+{"ts":"15:05:35","action":"LISTEN","text":"Audio energy low; continuing to listen.","cycle":0}
+{"ts":"15:05:35","action":"LISTEN","text":"Audio energy low; continuing to listen.","cycle":1}
+{"ts":"15:05:36","action":"LOOK","text":"Attending to motion in the frame.","cycle":2}
+{"ts":"15:05:36","action":"LOOK","text":"Attending to motion in the frame.","cycle":3}
+{"ts":"15:05:37","action":"LOOK","text":"Attending to motion in the frame.","cycle":4}
+{"ts":"15:05:37","action":"REPAIR","text":"Self-repair pass on fixed-point residual.","cycle":5}
+{"ts":"15:05:38","action":"REPAIR","text":"Self-repair pass on fixed-point residual.","cycle":6}
+{"ts":"15:05:38","action":"REPAIR","text":"Self-repair pass on fixed-point residual.","cycle":7}
+{"error":"[Errno 5] Input/output error","t":1789139139.8934555}
+{"error":"[Errno 5] Input/output error","t":1789139140.4768732}
+{"ts":"15:05:41","action":"REPAIR","text":"Self-repair pass on fixed-point residual.","cycle":8}
+{"error":"[Errno 5] Input/output error","t":1789139141.3633442}
+{"ts":"15:05:42","action":"REPAIR","text":"Self-repair pass on fixed-point residual.","cycle":8}
+{"error":"[Errno 5] Input/output error","t":1789139142.4853117}
+{"error":"[Errno 5] Input/output error","t":1789139143.0955355}
+{"ts":"15:05:43","action":"PLAN","text":"Planning with horizon 10.","cycle":9}
+{"t":1789147937.077231,"action":"LOOK","text":"Scanning visual field.","cycle":9,"c":0.6472}
+{"t":1789147938.0186388,"action":"LOOK","text":"Scanning visual field.","cycle":10,"c":0.6546}
+{"t":1789147939.1698046,"action":"PROMPT_REPLY","text":"status e=0.83 F=0.15 band=ok.","cycle":11,"c":0.6687}
+{"t":1789147940.0625892,"action":"LOOK","text":"Scanning visual field.","cycle":12,"c":0.6953}
+{"t":1789147940.9220734,"action":"SPEAK","text":"status e=0.73 F=0.12 band=ok.","cycle":13,"c":0.6889}
+{"t":1789147941.8814223,"action":"PROMPT_REPLY","text":"status e=0.64 F=0.11 band=ok.","cycle":14,"c":0.6918}
+{"t":1789147942.8429906,"action":"PROMPT_REPLY","text":"status e=0.55 F=0.10 band=ok.","cycle":15,"c":0.7052}
+{"t":1789147943.6888564,"action":"IDLE","text":"Holding.","cycle":16,"c":0.7094}
+{"t":1789147946.4539597,"action":"IDLE","text":"Holding.","cycle":17,"c":0.6828}
+{"t":1789147947.285057,"action":"LOOK","text":"Scanning visual field.","cycle":18,"c":0.6864}
+{"t":1789147948.1656768,"action":"LOOK","text":"Scanning visual field.","cycle":19,"c":0.6764}
+{"t":1789147949.0314002,"action":"IDLE","text":"Holding.","cycle":20,"c":0.6822}
+{"t":1789147949.9443166,"action":"PROMPT_REPLY","text":"status e=0.47 F=0.08 band=ok.","cycle":21,"c":0.6785}
+{"t":1789147950.8205419,"action":"IDLE","text":"Holding.","cycle":22,"c":0.6983}
+{"t":1789147951.7613566,"action":"SPEAK","text":"status e=0.39 F=0.09 band=ok.","cycle":23,"c":0.6869}
+{"t":1789147952.585116,"action":"IDLE","text":"Holding.","cycle":24,"c":0.7076}
+{"t":1789147954.2679641,"action":"IDLE","text":"Holding.","cycle":25,"c":0.6974}
+{"t":1789147955.1353612,"action":"IDLE","text":"Holding.","cycle":26,"c":0.7004}
+{"t":1789147955.9598727,"action":"PROMPT_REPLY","text":"status e=0.33 F=0.11 band=ok.","cycle":27,"c":0.7032}
+{"t":1789147956.895231,"action":"LISTEN","text":"Audio energy low; continuing to listen.","cycle":28,"c":0.6882}
+{"t":1789147957.859369,"action":"LISTEN","text":"Audio energy low; continuing to listen.","cycle":29,"c":0.6626}
+{"t":1789147959.0743194,"action":"IDLE","text":"Holding.","cycle":30,"c":0.6719}
+{"t":1789147960.2048416,"action":"LOOK","text":"Scanning visual field.","cycle":31,"c":0.6697}
+{"t":1789147961.5335722,"action":"LISTEN","text":"Audio energy low; continuing to listen.","cycle":32,"c":0.686}
+{"t":1789147976.4259088,"action":"LISTEN","text":"Audio energy low; continuing to listen.","cycle":33,"c":0.6767}
+{"t":1789147977.4370778,"action":"LOOK","text":"Scanning visual field.","cycle":34,"c":0.6443}
+{"t":1789147978.4506905,"action":"PLAN","text":"Plan H=1 ATE=0.013.","cycle":35,"c":0.6711}
+{"t":1789147979.4767761,"action":"LISTEN","text":"Audio energy low; continuing to listen.","cycle":36,"c":0.6544}
+{"t":1789147980.382736,"action":"LOOK","text":"Scanning visual field.","cycle":37,"c":0.681}
+{"t":1789147981.576533,"action":"SPEAK","text":"status e=0.76 F=0.11 band=ok.","cycle":38,"c":0.7057}
+{"t":1789147982.4850426,"action":"LOOK","text":"Scanning visual field.","cycle":39,"c":0.6821}
+{"t":1789147983.7181466,"action":"PROMPT_REPLY","text":"status e=0.66 F=0.10 band=ok.","cycle":40,"c":0.6993}
+{"t":1789147985.7208688,"action":"IDLE","text":"Holding.","cycle":41,"c":0.7011}
+{"t":1789147986.6162205,"action":"IDLE","text":"Holding.","cycle":42,"c":0.6752}
+{"t":1789147987.5685434,"action":"IDLE","text":"Holding.","cycle":43,"c":0.6796}
+{"t":1789147988.4361603,"action":"IDLE","text":"Holding.","cycle":44,"c":0.6886}
+{"t":1789147989.2834818,"action":"IDLE","text":"Holding.","cycle":45,"c":0.6961}
+{"t":1789147990.1311436,"action":"SPEAK","text":"status e=0.62 F=0.07 band=ok.","cycle":46,"c":0.7023}
+{"t":1789147991.015837,"action":"IDLE","text":"Holding.","cycle":47,"c":0.7039}
+{"t":1789147991.999164,"action":"IDLE","text":"Holding.","cycle":48,"c":0.7047}
+{"t":1789147994.5755727,"action":"PLAN","text":"Plan H=1 ATE=0.001.","cycle":49,"c":0.7057}
+{"t":1789147995.4698482,"action":"IDLE","text":"Holding.","cycle":50,"c":0.6411}
+{"t":1789147996.2661881,"action":"PLAN","text":"Plan H=1 ATE=0.001.","cycle":51,"c":0.6732}
+{"t":1789147997.0819924,"action":"IDLE","text":"Holding.","cycle":52,"c":0.6483}
+{"t":1789147997.9043493,"action":"IDLE","text":"Holding.","cycle":53,"c":0.6653}
+{"t":1789147998.7754781,"action":"IDLE","text":"Holding.","cycle":54,"c":0.6798}
+{"t":1789147999.6125233,"action":"PROMPT_REPLY","text":"status e=0.49 F=0.06 band=ok.","cycle":55,"c":0.6917}
+{"t":1789148000.4761257,"action":"IDLE","text":"Holding.","cycle":56,"c":0.6938}
+{"t":1789148002.0185804,"action":"PROMPT_REPLY","text":"status e=0.41 F=0.07 band=ok.","cycle":57,"c":0.6928}
+{"t":1789148839.7635179,"action":"LOOK","text":"Scanning visual field.","cycle":57,"c":0.6776}
+{"t":1789148840.6301186,"action":"LOOK","text":"Scanning visual field.","cycle":58,"c":0.6584}
+{"t":1789148849.349166,"action":"IDLE","text":"Holding.","cycle":57,"c":0.678}
+{"t":1789157538.4071062,"action":"LOOK","text":"Scanning visual field.","cycle":57,"c":0.6783}
+{"t":1789157539.2302783,"action":"IDLE","text":"Holding.","cycle":58,"c":0.6626}
+{"t":1789157540.0651486,"action":"IDLE","text":"Holding.","cycle":59,"c":0.6907}
+{"t":1789157540.95547,"action":"IDLE","text":"Holding.","cycle":60,"c":0.7012}
+{"t":1789157541.7685711,"action":"IDLE","text":"Holding.","cycle":61,"c":0.7057}
+{"t":1789157542.5895846,"action":"PROMPT_REPLY","text":"status e=0.88 F=0.12 band=ok.","cycle":62,"c":0.7083}
+{"t":1789157543.4156687,"action":"PROMPT_REPLY","text":"status e=0.79 F=0.11 band=ok.","cycle":63,"c":0.6874}
+{"t":1789157544.224459,"action":"LOOK","text":"Scanning visual field.","cycle":64,"c":0.6902}
+{"t":1789157547.3533137,"action":"IDLE","text":"Holding.","cycle":65,"c":0.6804}
+{"t":1789157548.2037659,"action":"LISTEN","text":"Audio energy low; continuing to listen.","cycle":66,"c":0.6813}
+{"t":1789157549.0012088,"action":"PROMPT_REPLY","text":"status e=0.69 F=0.08 band=ok.","cycle":67,"c":0.6626}
+{"t":1789157549.8152876,"action":"LOOK","text":"Scanning visual field.","cycle":68,"c":0.7025}

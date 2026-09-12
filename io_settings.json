@@ -1,0 +1,18 @@
+{
+  "version": "0.8.0",
+  "note": "Sub-settings for dashboard I/O. hid / public bind / rdp client stay fail-closed without consent.",
+  "video": {"on": false, "resolution": "1280x720", "framerate": 10, "codec": "h264"},
+  "audio_in": {"on": false, "source": "mic", "gain": 0.8, "noise_suppression": true},
+  "audio_out": {"on": true, "volume": 0.7, "device": "speaker", "mixing": false},
+  "tts": {"on": true, "voice": "en-US", "rate": 1.0, "pitch": 1.0, "backend": "print"},
+  "bt_a2dp": {"on": false, "codec": "SBC", "bitrate": 328, "auto_connect": false},
+  "bt_hfp": {"on": false, "auto_answer": false, "audio_routing": "headset", "sco_enabled": true},
+  "rdp_server": {"on": false, "port": 3389, "auth_method": "NLA", "bind_address": "127.0.0.1", "public_bind_consent": false},
+  "vnc_server": {"on": false, "port": 5900, "password": "", "bind_address": "127.0.0.1", "public_bind_consent": false},
+  "remote_view": {"on": false, "quality": "medium", "latency": "balanced", "privacy_mode": true},
+  "hid": {"on": false, "enabled": false, "consent": false, "allowed_devices": []},
+  "desktop_preview": {"on": true, "scale": 0.5, "refresh_rate": 5, "overlay": true},
+  "desire": {"on": true, "mode": "adaptive", "intensity": 0.5, "feedback": true},
+  "learn": {"on": true, "data_collection": false, "model_update": true, "privacy_level": "high"},
+  "mock_sensors": {"on": true, "sensor_type": "sine", "values": "0,0,0", "interval": 350}
+}

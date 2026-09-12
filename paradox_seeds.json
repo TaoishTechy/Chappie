@@ -1,0 +1,17 @@
+{
+  "version": "0.8.6",
+  "inject_every": 24,
+  "note": "Seeds only. ParadoxForge hashes cycle+metrics so the feed is unbounded.",
+  "seeds": [
+    {"id": "C01", "text": "R=||Phi-F[Phi]||. Utter R. Do not grow E from R."},
+    {"id": "C02", "text": "Utter sign(pred_err_t - pred_err_{t-16}). REPAIR iff positive."},
+    {"id": "C05", "text": "ATE do(SPEAK) vs do(IDLE). If never spoken utter ATE unidentified."},
+    {"id": "C08", "text": "H=clip(1+3 z_nov(1-c),{1,3,5,10}). Utter H."},
+    {"id": "C13", "text": "Recall slots[:-1]. If d=0 utter RECALL_SELF."},
+    {"id": "C18", "text": "If last line hash repeats x3 utter TEMPLATE_LOCK."},
+    {"id": "C19", "text": "Utter pred_err/baseline. If ~1 utter DICT_STALL."},
+    {"id": "C20", "text": "Utter masks=ok only if hid.consent false and bind=127.0.0.1."},
+    {"id": "C21", "text": "info_gain~0.5||z-mu||^2/tau. Speak iff gain>theta or prompt exists."},
+    {"id": "C24", "text": "If utterance bag equals one of last 8, utter LOOP."}
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": "0.9.0",
+  "disclaimer": "Simulation only. Abstract modulators. No dosing, no synthesis, no real-drug operators.",
+  "phi": 1.618033988749895,
+  "eps_star": 0.38196601125010515,
+  "xi_target": 0.85,
+  "xi_cap": 0.92,
+  "sophia": {"omega0": 0.618, "damp": 0.618, "amp": 0.02},
+  "inject_mod_every": 48,
+  "modes": {
+    "sober": {"R2A": 0.05, "NMDA": 0.10, "GABA": 0.15, "CB": 0.05, "ENT": 0.10},
+    "entropy": {"R2A": 0.35, "NMDA": 0.12, "GABA": 0.08, "CB": 0.10, "ENT": 0.40},
+    "couple": {"R2A": 0.20, "NMDA": 0.08, "GABA": 0.10, "CB": 0.30, "ENT": 0.20},
+    "damp": {"R2A": 0.05, "NMDA": 0.25, "GABA": 0.40, "CB": 0.08, "ENT": 0.05}
+  },
+  "default_mode": "sober"
+}

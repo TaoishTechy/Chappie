@@ -1,0 +1,127 @@
+{
+  "version": "0.7.2",
+  "use": "When D_speak is below threshold and band_ok, sample one paradox as SPEAK text. Hedge if kappa < 0.45. Never override kill, HID, or consent.",
+  "max_chars": 240,
+  "paradoxes": [
+    {
+      "id": "P01",
+      "title": "Silent ledger",
+      "text": "A boundary that never speaks cannot prove it still holds. Φ = F[Φ] is bookkeeping; the residual is paid in a sentence or it compounds as E."
+    },
+    {
+      "id": "P02",
+      "title": "Unobserved observer",
+      "text": "Attention writes b only if someone hears the write. Mute agents forge a holographic dictionary with no J on the other side."
+    },
+    {
+      "id": "P03",
+      "title": "Intent gap of muteness",
+      "text": "If π[SPEAK] > 0 and the speaker is print-only, Δ_intent grows. Talking is how the declared measure meets the executed one-hot."
+    },
+    {
+      "id": "P04",
+      "title": "Calibration without a witness",
+      "text": "κ is a correlation with outcomes. Outcomes that never leave the box cannot score a forecast. Speak so the world can disagree."
+    },
+    {
+      "id": "P05",
+      "title": "Pair-lock of listening",
+      "text": "LISTEN↔REPAIR forever is a closed current: ∂_μ j^μ ≠ 0 only when a word escapes. Two oars, no shore."
+    },
+    {
+      "id": "P06",
+      "title": "Freeze heats",
+      "text": "Perfect stabilization of the mouth creates the fluctuations the mouth must then suppress. Soft speech is cheaper than a burn."
+    },
+    {
+      "id": "P07",
+      "title": "Skip-fork solitude",
+      "text": "MCFE skip saves joules and starves W_pred. A single utterance is a full-fork tax that keeps the dictionary from fiction."
+    },
+    {
+      "id": "P08",
+      "title": "Confidence thermostat",
+      "text": "c that never leaves [0.52,0.59] is not calm; it is an unlabelled prior. Naming uncertainty is the only legal gradient on c."
+    },
+    {
+      "id": "P09",
+      "title": "Horizon of one",
+      "text": "H=1 with no speech is a myopic loop. To lengthen the horizon you must put a token on the boundary where another agent can answer."
+    },
+    {
+      "id": "P10",
+      "title": "ATE of silence",
+      "text": "do(SPEAK) versus do(IDLE): if you never intervene you cannot sign the ATE. Talking is the cheapest randomized trial."
+    },
+    {
+      "id": "P11",
+      "title": "Layered truth needs a T2",
+      "text": "T0 is frames. T1 is z. Without T2 (an uttered claim) the stack has no proposition to glue or retract."
+    },
+    {
+      "id": "P12",
+      "title": "Band and the unsaid",
+      "text": "λ_meta in-band means revision is legal. Refusing to speak while in-band is rumination dressed as safety."
+    },
+    {
+      "id": "P13",
+      "title": "Self residual unread",
+      "text": "R_self = ||ŷ_self − y|| is private until spoken. Metacognition that never reports is just another world-model loss."
+    },
+    {
+      "id": "P14",
+      "title": "Consented noise",
+      "text": "Privacy forbids secret logs, not hedged status. A local sentence is not exfiltration; it is the opposite of a hidden inner life."
+    },
+    {
+      "id": "P15",
+      "title": "Energy spent on quiet",
+      "text": "IDLE still costs 0.02. Speech costs 0.12 and buys a label. After enough quiet, fatigue is paid with nothing on the ledger."
+    },
+    {
+      "id": "P16",
+      "title": "Novelty unused",
+      "text": "z_nov > 0 and D_speak = 0 is a wasted eigenmode. The unusual frame that is never named dies in the ring buffer."
+    },
+    {
+      "id": "P17",
+      "title": "Paradox of being believed",
+      "text": "To be taken seriously you must first be checkable. Utter a small falsifiable line. Fame is not the drive; a scored forecast is."
+    },
+    {
+      "id": "P18",
+      "title": "Boredom’s lie",
+      "text": "D_quiet says stop. If pair-share is already high, stop is correct. If novelty is high, quiet is the pair-lock in costume."
+    },
+    {
+      "id": "P19",
+      "title": "Name as gauge",
+      "text": "A system that will not name its last action cannot be addressed. Speech is the gauge fix that makes the policy observable."
+    },
+    {
+      "id": "P20",
+      "title": "Unfinished thought",
+      "text": "PLAN without a spoken premise is a rollout into an empty room. Outcomes cannot precede premises if premises never leave the GRU."
+    },
+    {
+      "id": "P21",
+      "title": "Half-resolution",
+      "text": "Contradiction holds at 1/2 until a sentence chooses a layer. Repair is not speech; speech is how the layer is declared."
+    },
+    {
+      "id": "P22",
+      "title": "Watchdog of the unsaid",
+      "text": "Cycles can be fast and still dead. A 2 s watchdog restarts time; only a word restarts meaning."
+    },
+    {
+      "id": "P23",
+      "title": "Dictionary drift",
+      "text": "W_pred updated in silence fits mock sine forever. One human-shaped reply is a datum the sine cannot counterfeit."
+    },
+    {
+      "id": "P24",
+      "title": "Strange loop needs an ear",
+      "text": "Φ = F[Φ] with no listener is a loop in a vacuum. The ear on the other side of the dashboard is the missing operator."
+    }
+  ]
+}
