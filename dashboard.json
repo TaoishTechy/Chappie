@@ -1,0 +1,15 @@
+{
+  "title": "Φ-LITE DASHBOARD",
+  "width": 77,
+  "sections": [
+    "header",
+    "prompt",
+    "sensors",
+    "state",
+    "output",
+    "logs"
+  ],
+  "buttons": ["SEND", "CLEAR", "PAUSE", "RESET"],
+  "html_skin": "terminal-green-on-black",
+  "refresh_ms": 800
+}

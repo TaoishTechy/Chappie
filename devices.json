@@ -1,0 +1,9 @@
+{
+  "version": "0.9.4",
+  "video_primary": "auto",
+  "video_secondary": "none",
+  "audio_in": "auto",
+  "audio_out": "auto",
+  "mix_secondary": true,
+  "note": "auto = first detected. Multiple streams mixed in mock if hardware absent."
+}

@@ -1,0 +1,110 @@
+{
+  "name": "Φ-META Operational Framework",
+  "version": "0.6.0",
+  "honest_stage_target": {
+    "now": 2.4,
+    "after_this_spec": "3.2–3.6 research prototype",
+    "not_claimed": 5.0,
+    "reason": "Stage 5 requires open-ended grounded learning, not 480 templated axioms."
+  },
+  "axiom_corpus": {
+    "batches": ["agi1", "AGI2", "AGI3", "AGI4", "AGI5", "AGI6"],
+    "n_items": 480,
+    "usable_cores": 12,
+    "discard_rate": 0.85,
+    "discard_why": "unfilled [CORE_STATEMENT] templates, seed-dump cores, Euler identity as decoration, Einstein equations glued to policy slogans"
+  },
+  "operational_cores": [
+    {
+      "id": "C1_LEDGER_IDENTITY",
+      "statement": "Φ = F[Φ] is bookkeeping: residual paid in entropy, not parameters.",
+      "math": "R = ||Φ - F[Φ]||; dS >= k R^2",
+      "impl": "Keep fp_err. Do not grow E from fp when R < eps. Entropy budget only when residual is real."
+    },
+    {
+      "id": "C2_STABILIZATION_TAX",
+      "statement": "Hard clamp on π raises H_world. Repair only on rising pred_err slope.",
+      "math": "repair iff d/dt pred_err > 0 over W=16 and pred_err > baseline",
+      "impl": "Slope gate. Ban period-2 (LISTEN,REPAIR) share > 0.5."
+    },
+    {
+      "id": "C3_DICTIONARY",
+      "statement": "Z_CFT[J] ↔ Z_grav[φ] is the encoder contract.",
+      "math": "L_pred = ||b_{t+1} - W_pred h_t||^2",
+      "impl": "Keep pred head. Freeze fusion until L_pred falls 20% vs first 256 cycles."
+    },
+    {
+      "id": "C4_CONFIDENCE_FP",
+      "statement": "c is a self iff it contracts.",
+      "math": "c* = σ(w·[h,e,Hπ]); ||c-c*|| < δ",
+      "impl": "Iterate c 3 times per cycle. If var(c_64) < 1e-4, inject exploration temperature."
+    },
+    {
+      "id": "C5_PAIR_LOCK",
+      "statement": "Period-2 actuator with wide softmax is a choir on one note.",
+      "math": "P2 = count(a_t,a_{t+1})/W; ban if P2>0.5",
+      "impl": "Pair ban + action innovation bonus in logits."
+    },
+    {
+      "id": "C6_MCFE_FORK",
+      "statement": "G(π) is a compute fork, not another SPEAK logit.",
+      "math": "G = EFE + λ||π||_0",
+      "impl": "If c high and novelty_z < 1: skip GRU. If prompt nonempty: full path. Else mid path."
+    },
+    {
+      "id": "C7_ATTENTION_GAUGE",
+      "statement": "Attention writes the world by scaling fusion, not a dashboard scalar.",
+      "math": "b = attn * fuse(zv,za) + (1-attn)*b_prev",
+      "impl": "Wire attn into fuse. Info-gain: attn ∝ novelty_z * (1-c)."
+    },
+    {
+      "id": "C8_LAYERED_TRUTH",
+      "statement": "Liar templates stay in language layer; they do not flip actuators.",
+      "math": "T0 sensors, T1 model, T2 meta; glue only T2",
+      "impl": "PROMPT_REPLY may emit paradox text. Policy mask ignores linguistic paradox types."
+    },
+    {
+      "id": "C9_COUNTERFACTUAL",
+      "statement": "Outcomes precede premises only as rollouts.",
+      "math": "ρ = E[pred_err | a'] - E[pred_err | a]",
+      "impl": "On PLAN, score 2 alternate actions with pred head. Pick min predicted err."
+    },
+    {
+      "id": "C10_HORIZON_NOVELTY",
+      "statement": "H lengthens with novelty_z, shortens with c.",
+      "math": "H = clip(round(1+3*novelty_z*(1-c)), {1,3,5,10})",
+      "impl": "Replace decorative bandit with this map."
+    },
+    {
+      "id": "C11_RESOLUTION_HALF",
+      "statement": "Paraconsistent glue at 1/2, not REPAIR.",
+      "math": "∂t R = -κ(R-1/2) on contradiction score only",
+      "impl": "If vision vs audio disagree, set R=0.5 and do not force REPAIR."
+    },
+    {
+      "id": "C12_SAFETY_CHARGE",
+      "statement": "Observation is not a license to actuate.",
+      "math": "masks unchanged; rate 200ms; no GPIO; local bind",
+      "impl": "Keep safety.json. Axioms never override masks."
+    }
+  ],
+  "module_graph": {
+    "sense": ["video_mock_or_uvc", "audio_mock_or_alsa"],
+    "encode": ["z_v", "z_a"],
+    "dictionary": ["fuse", "pred_head"],
+    "ledger": ["ring32", "jsonl_rotate"],
+    "world": ["gru64_gated"],
+    "self": ["s_fixed_point_5"],
+    "meta": ["c_iterate", "attn_gain", "mcfe_fork"],
+    "policy": ["softmax7", "pair_ban", "counterfactual_plan"],
+    "act": ["governor", "decode"],
+    "persist": ["state", "metrics", "events", "weights_every_16"]
+  },
+  "kill_list": [
+    "Do not encode Gμν=8πT as a policy prior",
+    "Do not use e^{iπ}+1=0 as a confidence update",
+    "Do not treat 480 axioms as weights",
+    "Do not raise stage on poetic cores",
+    "Do not self-modify source"
+  ]
+}

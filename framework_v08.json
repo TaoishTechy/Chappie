@@ -1,0 +1,13 @@
+{
+  "version": "0.8.0",
+  "honest_stage_now": 2.9,
+  "honest_stage_after": "3.1 if energy floor + prompt mask + crystal recall used in PLAN",
+  "not_claimed": 5.0,
+  "memory_crystal": {
+    "write": "each cycle project b[:8] into slot with action, c, energy",
+    "recall": "nearest slot by L2 on 8-D boundary; feed into PLAN ATE as prior",
+    "evict": "oldest if cap, or highest D_quiet if full",
+    "forbid": ["retrocausal write", "source rewrite", "public RDP from recall"]
+  },
+  "io_fail_closed": ["hid", "rdp_public", "vnc_public", "rdp_client"]
+}

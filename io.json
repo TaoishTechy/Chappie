@@ -1,0 +1,16 @@
+{
+  "video": true,
+  "audio_in": true,
+  "audio_out": false,
+  "tts": false,
+  "bt_a2dp": false,
+  "bt_hfp": false,
+  "rdp_server": false,
+  "vnc_server": false,
+  "remote_view": false,
+  "hid": false,
+  "desktop_preview": true,
+  "desire": false,
+  "learn": true,
+  "mock_sensors": true
+}

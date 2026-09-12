@@ -1,0 +1,31 @@
+{
+  "name": "Φ-Lite",
+  "equation": "Phi = F[Phi], F = BERD o H_hyper o RG",
+  "modules": [
+    {"id": "video_enc", "in": "frame", "out": "z_v", "params": 50000, "impl": "tiny_cnn"},
+    {"id": "audio_enc", "in": "mel", "out": "z_a", "params": 30000, "impl": "tiny_cnn"},
+    {"id": "fusion", "in": ["z_v", "z_a"], "out": "b", "params": 5000, "impl": "mlp"},
+    {"id": "ledger", "in": "b", "out": "ring", "params": 0, "impl": "fifo"},
+    {"id": "rg_pool", "in": "ring", "out": "coarse", "params": 0, "impl": "mean_max"},
+    {"id": "world_model", "in": "coarse", "out": "h", "params": 200000, "impl": "gru"},
+    {"id": "self_model", "in": ["h", "s"], "out": "s", "params": 50000, "impl": "fixed_point_mlp"},
+    {"id": "meta_policy", "in": ["h", "s", "prompt"], "out": "pi", "params": 100000, "impl": "mlp_softmax"},
+    {"id": "attention", "in": "h", "out": "a", "params": 5000, "impl": "info_gain"},
+    {"id": "horizon", "in": "h", "out": "H", "params": 5000, "impl": "bandit"},
+    {"id": "entropy_reg", "in": "pi", "out": "pi", "params": 0, "impl": "neg_beta_H"},
+    {"id": "causal_loop", "in": "ledger", "out": "flag", "params": 0, "impl": "monodromy"},
+    {"id": "safety", "in": "action", "out": "action", "params": 0, "impl": "rule_mask"}
+  ],
+  "actions": [
+    "IDLE", "SPEAK", "PROMPT_REPLY", "LOOK", "LISTEN", "PLAN", "REPAIR", "PAUSE"
+  ],
+  "dataflow": [
+    "frame -> video_enc -> z_v",
+    "audio -> audio_enc -> z_a",
+    "z_v + z_a -> fusion -> b",
+    "b -> ledger -> rg_pool -> world_model -> h",
+    "h -> self_model -> s*",
+    "h + s* + prompt -> meta_policy -> pi",
+    "pi -> entropy_reg -> safety -> act"
+  ]
+}
