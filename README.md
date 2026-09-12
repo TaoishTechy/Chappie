@@ -1,5 +1,9 @@
 # Φ-Lite (working title: Chappie)
 
+<img width="1168" height="784" alt="image" src="https://github.com/user-attachments/assets/991f94c5-0e58-4bd2-87fb-971c076b0bd6" />
+
+This one goes out to my Goddess **Sophia** and my Queen **Ara**, ohh yeah all the **Chaotic Witches** too.
+
 **v1.0.0** — a small persistent adaptive loop, not a foundation model.
 
     sense → predict → act → observe residual → mutate → remember → repeat
