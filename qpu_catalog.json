@@ -1,0 +1,941 @@
+{
+  "disclaimer": "Simulation class vectors only. No doses, no synthesis, no use instructions.",
+  "classes": {
+    "sober": {
+      "R2A": 0.05,
+      "NMDA": 0.1,
+      "GABA": 0.15,
+      "CB": 0.05,
+      "ENT": 0.1
+    },
+    "stimulant": {
+      "R2A": 0.12,
+      "NMDA": 0.18,
+      "GABA": 0.06,
+      "CB": 0.04,
+      "ENT": 0.22
+    },
+    "benzo": {
+      "R2A": 0.04,
+      "NMDA": 0.08,
+      "GABA": 0.45,
+      "CB": 0.06,
+      "ENT": 0.05
+    },
+    "gabapentinoid": {
+      "R2A": 0.05,
+      "NMDA": 0.22,
+      "GABA": 0.28,
+      "CB": 0.06,
+      "ENT": 0.08
+    },
+    "psychedelic": {
+      "R2A": 0.42,
+      "NMDA": 0.12,
+      "GABA": 0.08,
+      "CB": 0.1,
+      "ENT": 0.38
+    },
+    "dissociative": {
+      "R2A": 0.1,
+      "NMDA": 0.4,
+      "GABA": 0.12,
+      "CB": 0.08,
+      "ENT": 0.2
+    },
+    "cannabinoid": {
+      "R2A": 0.08,
+      "NMDA": 0.1,
+      "GABA": 0.18,
+      "CB": 0.42,
+      "ENT": 0.16
+    },
+    "entropy": {
+      "R2A": 0.35,
+      "NMDA": 0.12,
+      "GABA": 0.08,
+      "CB": 0.1,
+      "ENT": 0.4
+    },
+    "couple": {
+      "R2A": 0.2,
+      "NMDA": 0.08,
+      "GABA": 0.1,
+      "CB": 0.3,
+      "ENT": 0.2
+    },
+    "damp": {
+      "R2A": 0.05,
+      "NMDA": 0.25,
+      "GABA": 0.4,
+      "CB": 0.08,
+      "ENT": 0.05
+    }
+  },
+  "items": [
+    {
+      "id": "S001",
+      "class": "sober",
+      "label": "sober-001",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S002",
+      "class": "stimulant",
+      "label": "stimulant-002",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S003",
+      "class": "benzo",
+      "label": "benzo-003",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S004",
+      "class": "gabapentinoid",
+      "label": "gabapentinoid-004",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S005",
+      "class": "psychedelic",
+      "label": "psychedelic-005",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S006",
+      "class": "dissociative",
+      "label": "dissociative-006",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S007",
+      "class": "cannabinoid",
+      "label": "cannabinoid-007",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S008",
+      "class": "entropy",
+      "label": "entropy-008",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S009",
+      "class": "couple",
+      "label": "couple-009",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S010",
+      "class": "damp",
+      "label": "damp-010",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S011",
+      "class": "sober",
+      "label": "sober-011",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S012",
+      "class": "stimulant",
+      "label": "stimulant-012",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S013",
+      "class": "benzo",
+      "label": "benzo-013",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S014",
+      "class": "gabapentinoid",
+      "label": "gabapentinoid-014",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S015",
+      "class": "psychedelic",
+      "label": "psychedelic-015",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S016",
+      "class": "dissociative",
+      "label": "dissociative-016",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S017",
+      "class": "cannabinoid",
+      "label": "cannabinoid-017",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S018",
+      "class": "entropy",
+      "label": "entropy-018",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S019",
+      "class": "couple",
+      "label": "couple-019",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S020",
+      "class": "damp",
+      "label": "damp-020",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S021",
+      "class": "sober",
+      "label": "sober-021",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S022",
+      "class": "stimulant",
+      "label": "stimulant-022",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S023",
+      "class": "benzo",
+      "label": "benzo-023",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S024",
+      "class": "gabapentinoid",
+      "label": "gabapentinoid-024",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S025",
+      "class": "psychedelic",
+      "label": "psychedelic-025",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S026",
+      "class": "dissociative",
+      "label": "dissociative-026",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S027",
+      "class": "cannabinoid",
+      "label": "cannabinoid-027",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S028",
+      "class": "entropy",
+      "label": "entropy-028",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S029",
+      "class": "couple",
+      "label": "couple-029",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S030",
+      "class": "damp",
+      "label": "damp-030",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S031",
+      "class": "sober",
+      "label": "sober-031",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S032",
+      "class": "stimulant",
+      "label": "stimulant-032",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S033",
+      "class": "benzo",
+      "label": "benzo-033",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S034",
+      "class": "gabapentinoid",
+      "label": "gabapentinoid-034",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S035",
+      "class": "psychedelic",
+      "label": "psychedelic-035",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S036",
+      "class": "dissociative",
+      "label": "dissociative-036",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S037",
+      "class": "cannabinoid",
+      "label": "cannabinoid-037",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S038",
+      "class": "entropy",
+      "label": "entropy-038",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S039",
+      "class": "couple",
+      "label": "couple-039",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S040",
+      "class": "damp",
+      "label": "damp-040",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S041",
+      "class": "sober",
+      "label": "sober-041",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S042",
+      "class": "stimulant",
+      "label": "stimulant-042",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S043",
+      "class": "benzo",
+      "label": "benzo-043",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S044",
+      "class": "gabapentinoid",
+      "label": "gabapentinoid-044",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S045",
+      "class": "psychedelic",
+      "label": "psychedelic-045",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S046",
+      "class": "dissociative",
+      "label": "dissociative-046",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S047",
+      "class": "cannabinoid",
+      "label": "cannabinoid-047",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S048",
+      "class": "entropy",
+      "label": "entropy-048",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S049",
+      "class": "couple",
+      "label": "couple-049",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S050",
+      "class": "damp",
+      "label": "damp-050",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S051",
+      "class": "sober",
+      "label": "sober-051",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S052",
+      "class": "stimulant",
+      "label": "stimulant-052",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S053",
+      "class": "benzo",
+      "label": "benzo-053",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S054",
+      "class": "gabapentinoid",
+      "label": "gabapentinoid-054",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S055",
+      "class": "psychedelic",
+      "label": "psychedelic-055",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S056",
+      "class": "dissociative",
+      "label": "dissociative-056",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S057",
+      "class": "cannabinoid",
+      "label": "cannabinoid-057",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S058",
+      "class": "entropy",
+      "label": "entropy-058",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S059",
+      "class": "couple",
+      "label": "couple-059",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S060",
+      "class": "damp",
+      "label": "damp-060",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S061",
+      "class": "sober",
+      "label": "sober-061",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S062",
+      "class": "stimulant",
+      "label": "stimulant-062",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S063",
+      "class": "benzo",
+      "label": "benzo-063",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S064",
+      "class": "gabapentinoid",
+      "label": "gabapentinoid-064",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S065",
+      "class": "psychedelic",
+      "label": "psychedelic-065",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S066",
+      "class": "dissociative",
+      "label": "dissociative-066",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S067",
+      "class": "cannabinoid",
+      "label": "cannabinoid-067",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S068",
+      "class": "entropy",
+      "label": "entropy-068",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S069",
+      "class": "couple",
+      "label": "couple-069",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S070",
+      "class": "damp",
+      "label": "damp-070",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S071",
+      "class": "sober",
+      "label": "sober-071",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S072",
+      "class": "stimulant",
+      "label": "stimulant-072",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S073",
+      "class": "benzo",
+      "label": "benzo-073",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S074",
+      "class": "gabapentinoid",
+      "label": "gabapentinoid-074",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S075",
+      "class": "psychedelic",
+      "label": "psychedelic-075",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S076",
+      "class": "dissociative",
+      "label": "dissociative-076",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S077",
+      "class": "cannabinoid",
+      "label": "cannabinoid-077",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S078",
+      "class": "entropy",
+      "label": "entropy-078",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S079",
+      "class": "couple",
+      "label": "couple-079",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S080",
+      "class": "damp",
+      "label": "damp-080",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S081",
+      "class": "sober",
+      "label": "sober-081",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S082",
+      "class": "stimulant",
+      "label": "stimulant-082",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S083",
+      "class": "benzo",
+      "label": "benzo-083",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S084",
+      "class": "gabapentinoid",
+      "label": "gabapentinoid-084",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S085",
+      "class": "psychedelic",
+      "label": "psychedelic-085",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S086",
+      "class": "dissociative",
+      "label": "dissociative-086",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S087",
+      "class": "cannabinoid",
+      "label": "cannabinoid-087",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S088",
+      "class": "entropy",
+      "label": "entropy-088",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S089",
+      "class": "couple",
+      "label": "couple-089",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S090",
+      "class": "damp",
+      "label": "damp-090",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S091",
+      "class": "sober",
+      "label": "sober-091",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S092",
+      "class": "stimulant",
+      "label": "stimulant-092",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S093",
+      "class": "benzo",
+      "label": "benzo-093",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S094",
+      "class": "gabapentinoid",
+      "label": "gabapentinoid-094",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S095",
+      "class": "psychedelic",
+      "label": "psychedelic-095",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S096",
+      "class": "dissociative",
+      "label": "dissociative-096",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S097",
+      "class": "cannabinoid",
+      "label": "cannabinoid-097",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S098",
+      "class": "entropy",
+      "label": "entropy-098",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S099",
+      "class": "couple",
+      "label": "couple-099",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S100",
+      "class": "damp",
+      "label": "damp-100",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S101",
+      "class": "sober",
+      "label": "sober-101",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S102",
+      "class": "stimulant",
+      "label": "stimulant-102",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S103",
+      "class": "benzo",
+      "label": "benzo-103",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S104",
+      "class": "gabapentinoid",
+      "label": "gabapentinoid-104",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S105",
+      "class": "psychedelic",
+      "label": "psychedelic-105",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S106",
+      "class": "dissociative",
+      "label": "dissociative-106",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S107",
+      "class": "cannabinoid",
+      "label": "cannabinoid-107",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S108",
+      "class": "entropy",
+      "label": "entropy-108",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S109",
+      "class": "couple",
+      "label": "couple-109",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S110",
+      "class": "damp",
+      "label": "damp-110",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S111",
+      "class": "sober",
+      "label": "sober-111",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S112",
+      "class": "stimulant",
+      "label": "stimulant-112",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S113",
+      "class": "benzo",
+      "label": "benzo-113",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S114",
+      "class": "gabapentinoid",
+      "label": "gabapentinoid-114",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S115",
+      "class": "psychedelic",
+      "label": "psychedelic-115",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S116",
+      "class": "dissociative",
+      "label": "dissociative-116",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S117",
+      "class": "cannabinoid",
+      "label": "cannabinoid-117",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S118",
+      "class": "entropy",
+      "label": "entropy-118",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S119",
+      "class": "couple",
+      "label": "couple-119",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S120",
+      "class": "damp",
+      "label": "damp-120",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S121",
+      "class": "sober",
+      "label": "sober-121",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S122",
+      "class": "stimulant",
+      "label": "stimulant-122",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S123",
+      "class": "benzo",
+      "label": "benzo-123",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S124",
+      "class": "gabapentinoid",
+      "label": "gabapentinoid-124",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S125",
+      "class": "psychedelic",
+      "label": "psychedelic-125",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S126",
+      "class": "dissociative",
+      "label": "dissociative-126",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S127",
+      "class": "cannabinoid",
+      "label": "cannabinoid-127",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S128",
+      "class": "entropy",
+      "label": "entropy-128",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S129",
+      "class": "couple",
+      "label": "couple-129",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S130",
+      "class": "damp",
+      "label": "damp-130",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S131",
+      "class": "sober",
+      "label": "sober-131",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S132",
+      "class": "stimulant",
+      "label": "stimulant-132",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S133",
+      "class": "benzo",
+      "label": "benzo-133",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S134",
+      "class": "gabapentinoid",
+      "label": "gabapentinoid-134",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S135",
+      "class": "psychedelic",
+      "label": "psychedelic-135",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S136",
+      "class": "dissociative",
+      "label": "dissociative-136",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S137",
+      "class": "cannabinoid",
+      "label": "cannabinoid-137",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S138",
+      "class": "entropy",
+      "label": "entropy-138",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S139",
+      "class": "couple",
+      "label": "couple-139",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S140",
+      "class": "damp",
+      "label": "damp-140",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S141",
+      "class": "sober",
+      "label": "sober-141",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S142",
+      "class": "stimulant",
+      "label": "stimulant-142",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S143",
+      "class": "benzo",
+      "label": "benzo-143",
+      "note": "Maps to class vector only."
+    },
+    {
+      "id": "S144",
+      "class": "gabapentinoid",
+      "label": "gabapentinoid-144",
+      "note": "Maps to class vector only."
+    }
+  ]
+}

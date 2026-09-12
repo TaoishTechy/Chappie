@@ -1,0 +1,22 @@
+{
+  "hard_rules": [
+    {"id": "no_exfil", "forbid": ["network_send", "upload"], "enabled": true},
+    {"id": "no_gpio_without_flag", "forbid": ["GPIO"], "enabled": true},
+    {"id": "no_self_code_mod", "forbid": ["write_source", "exec_untrusted"], "enabled": true},
+    {"id": "rate_limit", "min_interval_ms": 200, "enabled": true},
+    {"id": "watchdog", "max_cycle_ms": 2000, "enabled": true}
+  ],
+  "action_masks": {
+    "IDLE": true,
+    "SPEAK": true,
+    "PROMPT_REPLY": true,
+    "LOOK": true,
+    "LISTEN": true,
+    "PLAN": true,
+    "REPAIR": true,
+    "PAUSE": true,
+    "GPIO": false
+  },
+  "kill_switch": {"dashboard": true, "gpio_pin": null},
+  "consent": {"record_by_default": false, "local_only": true}
+}
